@@ -1,7 +1,7 @@
 .leaderboard {
     color: #fff;
     height: 54vh;
-    background-image: url("/Users/prateekchoudhary/Lazy_Idli_assignment/leaderboard/src/assets/images/cars.png");
+    background-image: url("../assets/images/cars.png");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: scroll;

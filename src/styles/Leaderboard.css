@@ -1,0 +1,272 @@
+.leaderboard {
+    color: #fff;
+    height: 54vh;
+    background-image: url("/Users/prateekchoudhary/Lazy_Idli_assignment/leaderboard/src/assets/images/cars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+}
+
+.leaderboard h2 {
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.711);
+}
+
+.leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 2vw;
+}
+
+.leaderboard li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #444;
+    position: relative;
+    margin-top: 1vh;
+    border-bottom-right-radius: 40px;
+    font-weight: bold;
+    color: black;
+    width: 95%;
+}
+
+
+.leaderboard li:nth-child(1) {
+    background-color: #d4af37;
+}
+
+.leaderboard li:nth-child(2) {
+    background-color: #c0c0c0;
+}
+
+.leaderboard li:nth-child(3) {
+    background-color: #cd7f32;
+}
+
+.leaderboard .username {
+    flex: 2;
+    font-size: 18px;
+    margin-left: 1vw;
+    ;
+}
+
+.leaderboard .time {
+    flex: 1;
+    text-align: center;
+    font-size: 18px;
+}
+
+.leaderboard .amount {
+    flex: 1;
+    text-align: right;
+    font-size: 18px;
+}
+
+#entry {
+    text-align: left;
+    padding-left: 3.2vw;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.711);
+    font-weight: bolder;
+}
+
+.medal {
+    position: absolute;
+    left: 10px;
+}
+
+.footer1 {
+   border-top: 2px solid rgb(25, 84, 167);
+   padding-bottom: 1vh;
+   backdrop-filter: blur(5px)
+}
+
+.rank {
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    background-color: black;
+    border-bottom-right-radius: 5px;
+
+}
+
+.leaderboard ul li.black-background {
+    background-color: rgba(0, 0, 0, 0.56);
+    color: white;
+}
+
+.one {
+    padding-left: 2vw;
+}
+
+.trophy {
+    margin-right: 1vw;
+}
+
+.leaderboard ul li {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #444;
+    position: relative;
+    border-bottom-right-radius: 40px;
+    font-weight: bold;
+    color: #cd7f32;
+    background-color: rgba(0, 0, 0, 0.354);
+    border-radius: 0;
+}
+
+div.more3 {
+    background-color: white;
+    color: black;
+    padding-left: 0.5vh;
+    padding-right: 1vh;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+}
+
+.number {
+    background-color: white;
+    color: black;
+    padding: 2px;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+
+}
+
+#last {
+    background-color: rgba(0, 0, 0, 0.534);
+    color: white;
+    width: 90%;
+    box-shadow: 10px 10px 20px 20px rgb(43, 86, 104);
+    margin-left: 5%;
+    border: 7px rgb(46, 94, 115);
+
+
+
+}
+
+.medal-1 {
+    color: #ffd700;
+    background-color: black;
+    border-bottom-right-radius: 5px;
+    padding-left: 0.5vh;
+    padding-right: 1vh;
+    font-size: 20px;
+
+}
+
+.medal-2 {
+    color: #c0c0c0;
+    background-color: black;
+    border-bottom-right-radius: 5px;
+    padding-left: 0.5vh;
+    padding-right: 1vh;
+    font-size: 20px;
+}
+
+.medal-3 {
+    color: #cd7f32;
+    background-color: black;
+    border-bottom-right-radius: 5px;
+    padding-left: 0.5vh;
+    padding-right: 1vh;
+    font-size: 20px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.546);
+    width: 100;
+}
+
+.c1 {
+    height: 3px;
+    width: 12vw;
+    margin-bottom: 2px;
+    background-color: orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+
+}
+
+.c2 {
+
+    width: 11.5vw;
+    height: 3px;
+    margin-bottom: 2px;
+    background-color: orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.c3 {
+
+    height: 3px;
+    width: 11vw;
+    margin-bottom: 2px;
+    background-color: orange;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.c4 {
+
+    height: 3px;
+    width: 11vw;
+    margin-bottom: 2px;
+    margin-left: 1vw;
+    background-color: blue;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 24, 25);
+
+}
+
+.logo1 {
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1vh;
+}
+
+.logo2 {
+    padding-left: 1vh;
+}
+
+.c5 {
+
+    height: 3px;
+    width: 11.5vw;
+    margin-bottom: 2px;
+    margin-left: 0.5vw;
+    background-color: blue;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.c6 {
+
+    height: 3px;
+    width: 12vw;
+    margin-bottom: 2px;
+    background-color: blue;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}

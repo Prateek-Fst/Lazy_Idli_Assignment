@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+    width: 40vw;
+    margin: auto;
+}
+button {
+    border: none;
+    padding: 1vh 2vh 1vh 2vh;
+    background-color: blueviolet;
+    border-radius: 3px;
+    color: white;
+    margin-top: 1vh
+}
+
+@keyframes scroll-footer {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}

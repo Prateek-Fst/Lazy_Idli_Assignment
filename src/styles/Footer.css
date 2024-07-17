@@ -1,0 +1,22 @@
+.footer {
+    background-image: url("/Users/prateekchoudhary/Lazy_Idli_assignment/leaderboard/src/assets/images/footer.png");
+    height: 43vh;
+    position: relative;
+
+}
+
+.base {
+
+    height: 3vh;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.538);
+    position: absolute;
+    top: 97%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+
+
+
+
+}

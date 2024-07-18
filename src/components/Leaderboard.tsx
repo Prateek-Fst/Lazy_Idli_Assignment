@@ -9,7 +9,8 @@ const Leaderboard: React.FC = () => {
     return (
         <>
             <div className="leaderboard">
-                <div className="navbar">
+               <div className="fixed">
+               <div className="navbar">
                     <div>
                         <div className='logo1'>GILLY'S</div>
                         <div className='logo2'>Koramangala</div>
@@ -45,6 +46,8 @@ const Leaderboard: React.FC = () => {
                         </span>
                     </li>
                 </ul>
+               </div>
+                
                 <ul>
                     {scores.map((score, index) => (
                         <li key={index} className={`rank-${index + 1} ${index >= 3 ? 'black-background' : ''}`}>
@@ -59,7 +62,7 @@ const Leaderboard: React.FC = () => {
                         </li>
                     ))}
                 </ul>
-                <div className="footer1">
+                {/* <div className="footer1">
                     <div id='entry'>
                         RECENT ENTRY
                     </div>
@@ -73,7 +76,7 @@ const Leaderboard: React.FC = () => {
                             <span className='time'> 03:34:12</span>
                         </span>
                     </li>
-                </div>
+                </div> */}
             </div>
         </>
     );

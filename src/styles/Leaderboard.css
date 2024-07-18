@@ -1,21 +1,6 @@
-.leaderboard {
-    color: #fff;
-    height: 54vh;
-    background-image: url("../assets/images/cars.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: scroll;
-}
-
 .leaderboard h2 {
     font-style: italic;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.711);
-}
-
-.leaderboard ul {
-    list-style-type: none;
-    padding: 0;
-    margin-left: 2vw;
 }
 
 .leaderboard li {
@@ -63,24 +48,24 @@
     text-align: right;
     font-size: 18px;
 }
-
+/* 
 #entry {
     text-align: left;
     padding-left: 3.2vw;
     text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.711);
     font-weight: bolder;
-}
+} */
 
 .medal {
     position: absolute;
     left: 10px;
 }
 
-.footer1 {
+/* .footer1 {
    border-top: 2px solid rgb(25, 84, 167);
    padding-bottom: 1vh;
    backdrop-filter: blur(5px)
-}
+} */
 
 .rank {
     padding-left: 0.5vh;
@@ -120,6 +105,7 @@
     color: #cd7f32;
     background-color: rgba(0, 0, 0, 0.354);
     border-radius: 0;
+   
 }
 
 div.more3 {
@@ -147,9 +133,6 @@ div.more3 {
     box-shadow: 10px 10px 20px 20px rgb(43, 86, 104);
     margin-left: 5%;
     border: 7px rgb(46, 94, 115);
-
-
-
 }
 
 .medal-1 {
@@ -186,7 +169,7 @@ div.more3 {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.546);
-    width: 100;
+   width:100%;
 }
 
 .c1 {
@@ -196,8 +179,6 @@ div.more3 {
     background-color: orange;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
-
-
 }
 
 .c2 {
@@ -239,6 +220,10 @@ div.more3 {
     background-color: rgb(23, 24, 25);
 
 }
+.navbar, .header {
+    width: 100%;
+    background-color: rgba(23, 24, 25, 0.8); /* Adjust background color as needed */
+}
 
 .logo1 {
     font-weight: bolder;
@@ -270,3 +255,32 @@ div.more3 {
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
+
+
+.fixed {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.915); /* Optional: add background to fixed section */
+    z-index: 1000;
+}
+
+.leaderboard {
+    color: #fff;
+    height: 54vh;
+    background-image: url("../assets/images/cars.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    position: relative;
+    width: 40vw; /* Adjust this value based on your layout */
+    margin:auto; /* Center the leaderboard if needed */
+}
+
+.leaderboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 2vw;
+}
+
+/* Other existing CSS rules remain unchanged */

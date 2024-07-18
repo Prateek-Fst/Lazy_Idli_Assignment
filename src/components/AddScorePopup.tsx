@@ -34,11 +34,11 @@ const AddScorePopup: React.FC<AddScorePopupProps> = ({ onClose }) => {
     };
     const handleAmountChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         let value = e.target.value;
-        if (value.startsWith('Rs')) {
-            value = value.slice(2); // Remove the 'Rs' prefix for processing
+        if (value.startsWith('₹')) {
+            value = value.slice(2); 
         }
         if (value) {
-            setAmount(`Rs ${value}`);
+            setAmount(`₹ ${value}`);
         } else {
             setAmount('');
         }
@@ -53,7 +53,7 @@ const AddScorePopup: React.FC<AddScorePopupProps> = ({ onClose }) => {
                         <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
                     </label>
                     <label>
-                        Time (MM:SS:MS):
+                        Time:
                         <input type="text" value={time} onChange={(e) => setTime(e.target.value)} placeholder="MM:SS:MS" />
                     </label>
                     <label>

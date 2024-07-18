@@ -12,6 +12,8 @@ const initialState: LeaderboardState = {
         { username: 'Anjum', time: '00:56:23', amount: '₹50000' },
         { username: 'Pragati Azad', time: '00:56:23', amount: '₹5000' },
         { username: 'Pragati Azad', time: '00:56:23', amount: '₹500' },
+        {username:"Prateek",time:"00:58:00", amount:"₹600"},
+        {username:"Prateek",time:"00:58:00", amount:"₹600"}
     ],
 };
 const leaderboardSlice = createSlice({

@@ -222,7 +222,7 @@ div.more3 {
 }
 .navbar, .header {
     width: 100%;
-    background-color: rgba(23, 24, 25, 0.8); /* Adjust background color as needed */
+    background-color: rgba(23, 24, 25, 0.8); 
 }
 
 .logo1 {
@@ -261,7 +261,7 @@ div.more3 {
     position: sticky;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.915); /* Optional: add background to fixed section */
+    background-color: rgba(0, 0, 0, 0.915); 
     z-index: 1000;
 }
 
@@ -273,8 +273,8 @@ div.more3 {
     background-size: cover;
     overflow: scroll;
     position: relative;
-    width: 40vw; /* Adjust this value based on your layout */
-    margin:auto; /* Center the leaderboard if needed */
+    width: 40vw; 
+    margin:auto; 
 }
 
 .leaderboard ul {
@@ -282,5 +282,3 @@ div.more3 {
     padding: 0;
     margin-left: 2vw;
 }
-
-/* Other existing CSS rules remain unchanged */
